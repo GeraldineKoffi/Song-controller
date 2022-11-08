@@ -1,0 +1,49 @@
+section{
+    width: 800px;
+    height: 300px;
+    transform: translate(300px, 100px);
+}
+.mike-icon{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+svg{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
+.volume{
+    width: 600px;
+    float: left;
+    margin-top: 90px;
+}
+input{
+    width: 600px;
+    -webkit-appearance: none;
+    height: 30px;
+    background: #dcf1f1;
+    outline: none;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    overflow: hidden;
+}
+input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    background: blue;
+    cursor: pointer;
+    box-shadow: -300px 0 0 300px #00ffc4;
+}
+span{
+    position: absolute;
+    right: -100px;
+    top: 110px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sound{
+    display: none;
+}
